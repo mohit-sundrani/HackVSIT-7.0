@@ -24,7 +24,8 @@ export default function Themes() {
                             viewBox="0 0 220 480"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="220" height="480" fill="#081408" />
                             <rect x="20" y="180" width="18" height="280" fill="rgba(0,180,70,0.1)" />
                             <rect x="42" y="140" width="22" height="320" fill="rgba(0,180,70,0.12)" />
@@ -56,7 +57,8 @@ export default function Themes() {
                             viewBox="0 0 320 480"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="320" height="480" fill="#050810" />
                             <rect
                                 x="60"
@@ -145,7 +147,8 @@ export default function Themes() {
                             viewBox="0 0 220 240"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="220" height="240" fill="#120408" />
                             <ellipse
                                 cx="110"
@@ -179,7 +182,8 @@ export default function Themes() {
                             viewBox="0 0 220 240"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="220" height="240" fill="#050810" />
                             <rect
                                 x="80"
@@ -220,7 +224,8 @@ export default function Themes() {
                             viewBox="0 0 580 200"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="580" height="200" fill="#0a0a04" />
                             <rect
                                 x="30"
@@ -265,7 +270,8 @@ export default function Themes() {
                             viewBox="0 0 580 200"
                             style={{ width: "100%", height: "100%" }}
                             xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="xMidYMid slice">
+                            preserveAspectRatio="xMidYMid slice"
+                        >
                             <rect width="580" height="200" fill="#080510" />
                             <rect
                                 x="260"

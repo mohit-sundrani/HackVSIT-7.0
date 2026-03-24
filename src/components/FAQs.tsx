@@ -10,9 +10,10 @@ function FaqItem({ code, label, question, answer, defaultOpen = false, fullWidth
 
     return (
         <div
-            className={`faq-item${open ? " open" : ""}`}
+            className={`faq-item${open ? "open" : ""}`}
             onClick={toggle}
-            style={fullWidth ? { gridColumn: "1/-1" } : {}}>
+            style={fullWidth ? { gridColumn: "1/-1" } : {}}
+        >
             <div className="faq-head">
                 <div>
                     <div
@@ -21,8 +22,9 @@ function FaqItem({ code, label, question, answer, defaultOpen = false, fullWidth
                             fontWeight: 700,
                             letterSpacing: "0.2em",
                             color: label ? "var(--yellow)" : "var(--dim2)",
-                            marginBottom: label ? "6px" : "5px"
-                        }}>
+                            marginBottom: label ? "6px" : "5px",
+                        }}
+                    >
                         {code}
                         {label ? ` · ${label}` : ""}
                     </div>
