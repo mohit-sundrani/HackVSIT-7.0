@@ -13,7 +13,7 @@ export default function Footer() {
                         <a href="#themes-section">Themes</a>
                     </li>
                     <li>
-                        <a href="#timeline-section">Timeline</a>
+                        <a href="#timeline-section">Timelinee</a>
                     </li>
                     <li>
                         <a href="#">Prizes</a>
