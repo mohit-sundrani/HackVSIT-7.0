@@ -1,6 +1,7 @@
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Hero2 from "./components/Hero2";
 import About from "./components/About";
 import Video from "./components/Video";
 import Countdown from "./components/Countdown";
@@ -17,18 +18,24 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <Hero />
+            <main>
+            <Hero2/>
+            {/* <Hero /> */}
             <About />
             <Video />
-            <Countdown />
+            {/* <Countdown /> */}
             <Themes />
             <Sponsors />
-            <Timeline />
+            {/* <Timeline /> */}
             <FAQs />
             <Community />
             <Social />
             <Partner />
             <Footer />
+            </main>
+            
+
+            
         </>
     );
 }
