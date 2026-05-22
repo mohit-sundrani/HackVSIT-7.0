@@ -1,5 +1,6 @@
 import { useReveal } from "../hooks/useReveal";
 
+
 export default function About() {
     const ref = useReveal();
 

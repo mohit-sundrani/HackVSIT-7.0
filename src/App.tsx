@@ -1,13 +1,10 @@
 import "./index.css";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import Hero2 from "./components/Hero2";
 import About from "./components/About";
 import Video from "./components/Video";
-import Countdown from "./components/Countdown";
 import Themes from "./components/Themes";
 import Sponsors from "./components/Sponsors";
-import Timeline from "./components/Timeline";
 import FAQs from "./components/FAQs";
 import Community from "./components/Community";
 import Social from "./components/Social";
