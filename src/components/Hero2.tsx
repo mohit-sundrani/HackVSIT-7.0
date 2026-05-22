@@ -74,32 +74,30 @@ export default function Hero2() {
         <div className="mt-4 flex w-full justify-center sm:mt-16">
           <div className="w-full max-w-[1200px] overflow-hidden rounded-t-2xl border border-[var(--border)] bg-[var(--panel)] shadow-[0_20px_80px_rgba(0,0,0,0.45)]">
             <div className="relative">
-              <div
-                style={{
-                  height: 36,
-                  background: "rgba(255,255,255,0.04)",
-                  borderBottom: "1px solid rgba(255,255,255,0.06)",
-                  display: "flex",
-                  alignItems: "center",
-                  padding: "0 16px",
-                  gap: 5,
-                  flexShrink: 0,
-                }}
-              >
-                {["#ff5f56", "#ffbd2e", "#27c93f"].map((c) => (
-                  <span
-                    key={c}
-                    style={{
-                      width: 11,
-                      height: 11,
-                      borderRadius: "50%",
-                      background: c,
-                      opacity: 0.7,
-                      display: "inline-block",
-                    }}
-                  />
-                ))}
-              </div>
+              <div className="video-header">
+                    <div
+                        style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "12px",
+                        }}
+                    >
+                        <div className="video-dots">
+                            <div className="video-dot r"></div>
+                            <div className="video-dot y"></div>
+                            <div className="video-dot g"></div>
+                        </div>
+
+                        <div className="video-title-bar">
+                            HACKVSIT_5.0_HIGHLIGHTS.png
+                        </div>
+                    </div>
+
+                    <div className="data-row">
+                        <div className="dot"></div>
+                        PLAYBACK READY
+                    </div>
+                </div>
               {/* Overlay */}
               <div className="pointer-events-none absolute inset-0 z-10 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.04),transparent_28%,rgba(0,0,0,0.38))]" />
               <img
