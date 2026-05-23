@@ -1,6 +1,5 @@
 import { useReveal } from "../hooks/useReveal";
 
-
 export default function About() {
     const ref = useReveal();
 
@@ -83,7 +82,7 @@ export default function About() {
                     <div className="data-row">
                         <div className="dot"></div>PARTICIPANTS
                     </div>
-                    <div className="big-val">500+</div>
+                    <div className="big-val">200+</div>
                     <div className="val-label">Expected hackers</div>
                 </div>
 

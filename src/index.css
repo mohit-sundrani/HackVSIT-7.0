@@ -1869,3 +1869,7 @@ footer {
         gap: 4px;
     }
 }
+
+* {
+    cursor: none !important;
+}

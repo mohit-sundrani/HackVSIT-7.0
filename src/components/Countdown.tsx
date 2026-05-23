@@ -19,8 +19,7 @@ export default function Countdown() {
         const targetDate = new Date("2026-04-25T09:00:00+05:30");
 
         function tick() {
-            const diff =
-                targetDate.getTime() - new Date().getTime();
+            const diff = targetDate.getTime() - new Date().getTime();
 
             if (diff <= 0) {
                 setTime({
@@ -48,28 +47,18 @@ export default function Countdown() {
     }, []);
 
     return (
-        <div
-            id="countdown-section"
-            className="sec-wrap reveal"
-            style={{ paddingTop: 0 }}
-            ref={ref}
-        >
+        <div id="countdown-section" className="sec-wrap reveal" style={{ paddingTop: 0 }} ref={ref}>
             <div className="countdown-panel">
                 <div className="cd-left">
                     <div className="sys-label">// INITIATE</div>
 
-                    <div
-                        className="cd-event"
-                        style={{ marginTop: "8px" }}
-                    >
+                    <div className="cd-event" style={{ marginTop: "8px" }}>
                         Hackathon
                         <br />
                         Starts In
                     </div>
 
-                    <div className="cd-sub">
-                        25 April 2026 · 09:00 IST
-                    </div>
+                    <div className="cd-sub">25 April 2026 · 09:00 IST</div>
                 </div>
 
                 <div className="cd-center">
@@ -101,10 +90,7 @@ export default function Countdown() {
                 </div>
 
                 <div className="cd-right">
-                    <div
-                        className="sys-label"
-                        style={{ textAlign: "right" }}
-                    >
+                    <div className="sys-label" style={{ textAlign: "right" }}>
                         Event Date
                     </div>
 
@@ -114,9 +100,7 @@ export default function Countdown() {
                         APR 2026
                     </div>
 
-                    <div className="cd-venue-small">
-                        VIPS-TC · New Delhi
-                    </div>
+                    <div className="cd-venue-small">VIPS-TC · New Delhi</div>
                 </div>
             </div>
         </div>

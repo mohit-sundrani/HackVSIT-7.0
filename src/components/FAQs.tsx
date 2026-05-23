@@ -1,24 +1,16 @@
 import { useState } from "react";
 import { useReveal } from "../hooks/useReveal";
 
-
 interface FAQCardProps {
-  code: string;
-  label?: string;
-  question: string;
-  answer: string;
-  defaultOpen?: boolean;
-  fullWidth?: boolean;
+    code: string;
+    label?: string;
+    question: string;
+    answer: string;
+    defaultOpen?: boolean;
+    fullWidth?: boolean;
 }
 
-function FaqItem({
-    code,
-    label,
-    question,
-    answer,
-    defaultOpen = false,
-    fullWidth = false,
-}: FAQCardProps) {
+function FaqItem({ code, label, question, answer, defaultOpen = false, fullWidth = false }: FAQCardProps) {
     const [open, setOpen] = useState(defaultOpen);
 
     function toggle() {
