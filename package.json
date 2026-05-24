@@ -11,7 +11,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@hcaptcha/react-hcaptcha": "^2.0.2",
         "@tailwindcss/vite": "^4.2.2",
+        "@vercel/analytics": "^2.0.1",
+        "@vercel/speed-insights": "^2.0.0",
         "ogl": "^1.0.11",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",

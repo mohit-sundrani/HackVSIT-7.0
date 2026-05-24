@@ -11,4 +11,5 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: { allowedHosts: ["oki6ar-ip-106-219-164-152.tunnelmole.net"] },
 });
