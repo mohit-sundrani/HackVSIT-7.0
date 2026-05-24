@@ -66,14 +66,14 @@ export default function FAQs() {
                     code="Q-001"
                     label="FEATURED"
                     question="When and where?"
-                    answer="25–26 April, Friday and Saturday. Vivekananda Institute of Professional Studies (Outer Ring Rd, AU Block, Ranikhet, Pitampura, New Delhi, Delhi, 110034, India)."
+                    answer="HackVSIT to be held at Vivekananda Institute of Professional Studies (Outer Ring Road, Pitampura, Delhi). Dates to be announced yet."
                     defaultOpen
                 />
                 <FaqItem
                     code="Q-002"
                     label="FEATURED"
                     question="Will there be food arrangements?"
-                    answer="We've got you covered! Three proper meals and snacks in between. Development on an empty stomach is just cruel."
+                    answer="We've got you covered! You’ll get three proper meals plus snacks in between. Coding on an empty stomach is just cruel."
                     defaultOpen
                 />
             </div>
@@ -82,17 +82,17 @@ export default function FAQs() {
                 <FaqItem
                     code="Q-003"
                     question="Can I participate alone? What is the maximum team size?"
-                    answer="You can register individually or as a team. Details on minimum and maximum team size will be shared during registration."
+                    answer="Yes, individual registrations are welcome. Full details on team composition and registration will be shared during registration."
                 />
                 <FaqItem
                     code="Q-004"
                     question="I am a beginner, can I register?"
-                    answer="Absolutely! HackVSIT welcomes all skill levels. Mentors will be present throughout to guide you."
+                    answer="Absolutely! HackVSIT welcomes participants of all skill levels. We’ll have experienced mentors on-site 24/7 to help and guide you."
                 />
                 <FaqItem
                     code="Q-005"
                     question="How much does it cost?"
-                    answer="Registration fee details will be announced soon. Follow our socials for updates."
+                    answer="Registration is free for participants"
                 />
                 <FaqItem
                     code="Q-006"
@@ -101,8 +101,8 @@ export default function FAQs() {
                 />
                 <FaqItem
                     code="Q-007"
-                    question="What do I need to bring to the event?"
-                    answer="Laptop, charger, college ID, and your best ideas. Extension cords and power banks are highly recommended."
+                    question="What should I bring besides my laptop?"
+                    answer="Don't forget: Your chargers and college ID. We highly recommend bringing an extension cord to stay powered up and a pillow for when you finally hit a wall. Bring your best ideas-we'll provide the rest!"
                 />
                 <FaqItem
                     code="Q-008"
@@ -111,28 +111,28 @@ export default function FAQs() {
                 />
                 <FaqItem
                     code="Q-009"
-                    question="What are the criteria for shortlisting teams?"
-                    answer="Teams shortlisted based on innovation, feasibility, impact, and alignment with the chosen theme."
+                    question="What is the criteria for shortlisting teams?"
+                    answer="Selection is based on your idea's innovation, feasibility, and impact, as well as your team's technical background (GitHub/LinkedIn). We’re looking for passionate hackers ready to solve real-world problems!"
                 />
                 <FaqItem
                     code="Q-010"
                     question="Is there an accommodation facility?"
-                    answer="Limited accommodation may be available for outstation participants. Reach out to the organizing team for details."
+                    answer="Since HackVSIT is a 24-hour event, the venue remains open overnight for all participants. Limited accommodation may be available for outstation participants. You can reach out to the organizing team for details."
                 />
                 <FaqItem
                     code="Q-011"
-                    question="What benefits do I get from this Hackathon?"
-                    answer="Industry mentorship, networking, prizes, certificates, goodies, and the chance to launch your startup idea."
+                    question="What are the benefits of participating?"
+                    answer="Participants will receive official certification, mentorship from industry experts, and access to a vibrant networking community. Top teams will win significant prizes and goodies, with additional support provided for those looking to turn their projects into viable startups."
                 />
                 <FaqItem
                     code="Q-012"
                     question="Where can I get real-time updates?"
-                    answer="Join our Discord and follow Instagram and LinkedIn for real-time updates on HackVSIT 7.0 and all ACE events."
+                    answer="The best way to stay updated is to join our official Discord server, where we share live announcements. You can also follow our Instagram and LinkedIn pages for real-time news on HackVSIT 7.0 and all upcoming ACE events! "
                 />
                 <FaqItem
                     code="Q-013"
                     question="Can I present a project I worked on before the hackathon?"
-                    answer="No. All projects must be built from scratch during the hackathon. Pre-existing projects are not eligible."
+                    answer="No. To keep the competition fair, all projects must be built from scratch during the 24 hours. Pre-existing projects are not eligible for submission at HackVSIT 7.0."
                     fullWidth
                 />
             </div>

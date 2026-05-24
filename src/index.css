@@ -287,7 +287,7 @@ nav {
     }
 }
 
-/* ═══ HERO V2 — full-bleed bg image ═══ */
+/* ═══ HERO V2 - full-bleed bg image ═══ */
 #hero {
     height: 100vh;
     min-height: 640px;
@@ -309,7 +309,7 @@ nav {
     z-index: 0;
 }
 
-/* dark + faint yellow-warm tint — matches the screenshot mood */
+/* dark + faint yellow-warm tint - matches the screenshot mood */
 .hero-overlay {
     position: absolute;
     inset: 0;
@@ -327,7 +327,7 @@ nav {
     padding: 28px 56px 44px;
 }
 
-/* Massive title — top left */
+/* Massive title - top left */
 .hero-v2-title {
     font-family: var(--font);
     font-size: clamp(72px, 10.5vw, 152px);
@@ -1503,7 +1503,7 @@ footer {
 }
 
 /* ═══════════════════════════════════════════
-   RESPONSIVE — tablet ≤ 1024px
+   RESPONSIVE - tablet ≤ 1024px
 ═══════════════════════════════════════════ */
 @media (max-width: 1024px) {
     .sec-wrap {
@@ -1629,14 +1629,14 @@ footer {
 }
 
 /* ═══════════════════════════════════════════
-   RESPONSIVE — mobile ≤ 768px
+   RESPONSIVE - mobile ≤ 768px
 ═══════════════════════════════════════════ */
 @media (max-width: 768px) {
     .sec-wrap {
         padding: 48px 20px;
     }
 
-    /* NAV — hide links, show only logo + CTA */
+    /* NAV - hide links, show only logo + CTA */
     nav {
         padding: 0 20px;
     }
@@ -1844,7 +1844,7 @@ footer {
 }
 
 /* ═══════════════════════════════════════════
-   RESPONSIVE — small mobile ≤ 480px
+   RESPONSIVE - small mobile ≤ 480px
 ═══════════════════════════════════════════ */
 @media (max-width: 480px) {
     .hero-v2-title {

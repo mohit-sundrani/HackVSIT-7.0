@@ -33,7 +33,7 @@ export default function About() {
                     </div>
                     <p className="about-desc">
                         For a full <strong>24 hours</strong>, you'll collaborate with your team to dream up and build
-                        the technology of tomorrow—to solve the problems we face today. Creativity, teamwork, and
+                        the technology of tomorrow - to solve the problems we face today. Creativity, teamwork, and
                         pushing the limits of innovation.
                     </p>
                     <p className="about-desc" style={{ marginTop: "12px" }}>
@@ -59,7 +59,7 @@ export default function About() {
                             fontWeight: 500,
                         }}
                     >
-                        PROGRESS: 72% — REGISTRATIONS OPEN
+                        PROGRESS: 72% - REGISTRATIONS OPEN
                     </div>
                     <div className="bg-num">7.0</div>
                 </div>
@@ -89,10 +89,10 @@ export default function About() {
                 <div className="bento-cell about-venue">
                     <div className="bracket tl"></div>
                     <div className="bracket br"></div>
-                    <div className="venue-pin">📍 Venue</div>
+                    <div className="venue-pin">Venue</div>
                     <div className="venue-sep"></div>
                     <div className="venue-addr">
-                        Vivekananda Institute of Professional Studies — Technical Campus
+                        Vivekananda Institute of Professional Studies - Technical Campus
                         <br />
                         Pitampura, New Delhi, Delhi 110034, India
                     </div>

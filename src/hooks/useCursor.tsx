@@ -18,7 +18,7 @@ interface CursorOptions {
  * useCursor
  *
  * Returns a ref to attach to the cursor <div> you render.
- * The hook drives position updates via rAF — no re-renders after mount.
+ * The hook drives position updates via rAF - no re-renders after mount.
  *
  * Usage:
  *   const cursorRef = useCursor({ imageUrl: "/cursor.png" });

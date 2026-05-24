@@ -23,8 +23,8 @@ export default function Community() {
                         <span className="outline">COMMUNITY</span>
                     </div>
                     <p className="community-desc">
-                        Get updates &amp; news related to HackVSIT and all upcoming events by ACE. Be the first to know
-                        about registrations, announcements, and surprises.
+                        Get the latest news on HackVSIT and all other upcoming ACE events. Be the first to know about
+                        registrations, announcements, and surprises!
                     </p>
                     <div className="community-btns">
                         <a href="https://discord.gg/qMcHwvskew" className="btn btn-y">

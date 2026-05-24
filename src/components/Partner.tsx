@@ -30,8 +30,8 @@ export default function Partner() {
                         WITH US
                     </div>
                     <p>
-                        We are looking forward to collaborations with companies, individuals, communities, and more who
-                        can support HackVSIT 7.0. Fill the form and we'll get back to you.
+                        We are looking forward to collaborating with companies, individuals, and communities to support
+                        HackVSIT 7.0. Please fill out the form, and we will get back to you shortly.
                     </p>
                     <div className="partner-tags">
                         <div className="ptag hi">Companies</div>

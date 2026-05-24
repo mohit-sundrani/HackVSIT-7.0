@@ -16,7 +16,7 @@ export default function Timeline() {
             <div className="timeline-grid">
                 <div className="tl-card">
                     <div className="tl-header">
-                        <div className="tl-title">DAY 01 — 25 APRIL 2026</div>
+                        <div className="tl-title">DAY 01 - 25 APRIL 2026</div>
                         <div className="tl-meta">SCHEDULE PENDING</div>
                     </div>
                     <div className="tl-body">
@@ -42,13 +42,13 @@ export default function Timeline() {
                             <rect x="10" y="30" width="20" height="4" rx="1" fill="rgba(245,197,24,0.2)" />
                         </svg>
                         <div className="tl-ph">TIMELINE IMAGE</div>
-                        <div className="tl-ph-sub">// Image Placeholder — Day 1 Schedule</div>
+                        <div className="tl-ph-sub">// Image Placeholder - Day 1 Schedule</div>
                     </div>
                 </div>
 
                 <div className="tl-card">
                     <div className="tl-header">
-                        <div className="tl-title">DAY 02 — 26 APRIL 2026</div>
+                        <div className="tl-title">DAY 02 - 26 APRIL 2026</div>
                         <div className="tl-meta">SCHEDULE PENDING</div>
                     </div>
                     <div className="tl-body">
@@ -74,7 +74,7 @@ export default function Timeline() {
                             <rect x="10" y="30" width="20" height="4" rx="1" fill="rgba(245,197,24,0.2)" />
                         </svg>
                         <div className="tl-ph">TIMELINE IMAGE</div>
-                        <div className="tl-ph-sub">// Image Placeholder — Day 2 Schedule</div>
+                        <div className="tl-ph-sub">// Image Placeholder - Day 2 Schedule</div>
                     </div>
                 </div>
             </div>
