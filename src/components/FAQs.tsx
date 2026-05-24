@@ -19,7 +19,7 @@ function FaqItem({ code, label, question, answer, defaultOpen = false, fullWidth
 
     return (
         <div
-            className={`faq-item${open ? "open" : ""}`}
+            className={`faq-item ${open ? "open" : ""}`}
             onClick={toggle}
             style={fullWidth ? { gridColumn: "1/-1" } : {}}
         >

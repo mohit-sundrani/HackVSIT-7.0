@@ -4,7 +4,7 @@ export default function About() {
     const ref = useReveal();
 
     return (
-        <section id="about" className="sec-wrap reveal" ref={ref}>
+        <section id="about-section" className="sec-wrap reveal" ref={ref}>
             <div className="sec-head">
                 <div className="sec-head-left">
                     <div className="sys-label">// SYS-01 &nbsp;·&nbsp; WHAT IS HACKVSIT 7.0</div>

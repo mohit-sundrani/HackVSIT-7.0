@@ -36,9 +36,9 @@ export default function Partner() {
                     <div className="partner-tags">
                         <div className="ptag hi">Companies</div>
                         <div className="ptag hi">Communities</div>
-                        <div className="ptag">Individuals</div>
+                        {/*<div className="ptag">Refreshments</div>
                         <div className="ptag">Media</div>
-                        <div className="ptag">Investors</div>
+                        <div className="ptag">Investors</div>*/}
                     </div>
                 </div>
 
@@ -56,12 +56,10 @@ export default function Partner() {
                             <option value="" disabled>
                                 Type of Partnership
                             </option>
-                            <option>Title Sponsor</option>
-                            <option>Platinum Sponsor</option>
-                            <option>Gold Sponsor</option>
-                            <option>Silver Sponsor</option>
+                            <option>Monetary Sponsor</option>
+                            <option>In Kind Sponsor</option>
                             <option>Community Partner</option>
-                            <option>Media Partner</option>
+                            <option>Refreshment Partner</option>
                         </select>
                         <textarea
                             className="pf-field pf-area"

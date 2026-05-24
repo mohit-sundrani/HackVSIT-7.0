@@ -48,11 +48,7 @@ export default function Video() {
                 <div className="video-footer">
                     <div className="data-row">
                         <div className="dot dim"></div>
-                        DURATION: 0:34 &nbsp;
-                        <div className="dot dim"></div>
                         &nbsp;1080P &nbsp;
-                        <div className="dot dim"></div>
-                        &nbsp;HACK-VSIT.TECH
                     </div>
 
                     <div className="data-row" style={{ color: "var(--yellow)" }}>

@@ -19,12 +19,12 @@ export default function Hero2() {
 
             <div className=" justify-center pt-20 z-10 mx-auto flex w-full max-w-[1600px]  flex-col items-center px-4 ">
                 {/* Hero Content */}
-                <div className="flex w-full  flex-col items-center text-center ">
+                <div className="flex w-full  flex-col items-center text-center mt-8 md:mt-12">
                     {/* Badge */}
-                    <div className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--ydim)] px-4 py-2 shadow-[0_0_30px_rgba(245,197,24,0.08)]">
+                    <div className="inline-flex items-center gap-2 rounded-full border border-[var(--yellow)] bg-[var(--ydim)] px-4 py-2 shadow-[0_0_30px_rgba(245,197,24,0.08)]">
                         <span className="h-1.5 w-1.5 rounded-full bg-[var(--yellow)]" />
                         <span className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--yellow)]">
-                            Discord Server
+                            Coming Soon
                         </span>
                     </div>
 
@@ -39,7 +39,7 @@ export default function Hero2() {
                     </h1>
 
                     {/* Description */}
-                    <p className="max-w-[820px] text-sm leading-[1.5] text-[var(--dim)] sm:text-base gap-">
+                    <p className="max-w-[820px] text-sm leading-[1.5] text-[var(--dim)] sm:text-base mt-2">
                         NORTH INDIA&apos;S BIGGEST HACKATHON. 24 HOURS. DREAM UP &amp; BUILD THE TECHNOLOGY OF TOMORROW
                         TO SOLVE THE PROBLEMS WE FACE TODAY.
                     </p>
@@ -59,7 +59,7 @@ export default function Hero2() {
                 </div>
 
                 {/* Image Section */}
-                <div className="mt-4 flex w-full justify-center sm:mt-16">
+                <div className="mt-8 flex w-full justify-center sm:mt-16">
                     <div className="w-full max-w-[1200px] overflow-hidden rounded-t-2xl border border-[var(--border)] bg-[var(--panel)] shadow-[0_20px_80px_rgba(0,0,0,0.45)]">
                         <div className="relative">
                             <div className="video-header">
@@ -81,7 +81,7 @@ export default function Hero2() {
 
                                 <div className="data-row">
                                     <div className="dot"></div>
-                                    7.0 READY
+                                    7.0 COMING SOON
                                 </div>
                             </div>
                             {/* Overlay */}

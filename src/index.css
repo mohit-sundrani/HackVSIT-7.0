@@ -31,7 +31,6 @@ body {
     color: var(--white);
     font-family: var(--font);
     overflow-x: hidden;
-    cursor: crosshair;
 }
 
 body::before {

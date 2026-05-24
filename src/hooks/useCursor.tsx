@@ -33,9 +33,6 @@ export function useCursor({
     smoothing = 0.12,
 }: CursorOptions) {
     const cursorRef = useRef<HTMLDivElement>(null);
-    const mouse = useRef({ x: -200, y: -200 });
-    const pos = useRef({ x: -200, y: -200 });
-    const rafId = useRef<number>(0);
 
     useEffect(() => {
         const el = cursorRef.current;
@@ -45,20 +42,9 @@ export function useCursor({
         const offsetY = hotspot[1];
 
         const onMouseMove = (e: MouseEvent) => {
-            mouse.current.x = e.clientX;
-            mouse.current.y = e.clientY;
+            el.style.transform = `translate(${e.clientX - offsetX}px, ${e.clientY - offsetY}px)`;
         };
 
-        const loop = () => {
-            pos.current.x += (mouse.current.x - pos.current.x) * smoothing;
-            pos.current.y += (mouse.current.y - pos.current.y) * smoothing;
-
-            el.style.transform = `translate(${pos.current.x - offsetX}px, ${pos.current.y - offsetY}px)`;
-
-            rafId.current = requestAnimationFrame(loop);
-        };
-
-        rafId.current = requestAnimationFrame(loop);
         window.addEventListener("mousemove", onMouseMove, { passive: true });
 
         if (hideNativeCursor) {
@@ -66,7 +52,6 @@ export function useCursor({
         }
 
         return () => {
-            cancelAnimationFrame(rafId.current);
             window.removeEventListener("mousemove", onMouseMove);
             if (hideNativeCursor) {
                 document.documentElement.style.cursor = "";
