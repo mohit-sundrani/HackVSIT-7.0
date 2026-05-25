@@ -1,4 +1,5 @@
 import { useReveal } from "../hooks/useReveal";
+import Hackvsit from "../assets/Hackvsit.mp4";
 
 export default function Video() {
     const ref = useReveal();
@@ -42,7 +43,7 @@ export default function Video() {
                 </div>
 
                 <div className="video-wrap">
-                    <video className="video-player w-full" src="/Hackvsit.mp4" controls autoPlay muted loop />
+                    <video className="video-player w-full" src={Hackvsit} controls autoPlay muted loop />
                 </div>
 
                 <div className="video-footer">

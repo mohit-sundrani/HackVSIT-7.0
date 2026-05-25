@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, type SubmitEvent } from "react";
 import { useReveal } from "../hooks/useReveal";
 
 export default function Partner() {
     const ref = useReveal();
     const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
-    const onSubmit = async (e) => {
+    const onSubmit = async (e: SubmitEvent) => {
         e.preventDefault();
         setStatus("sending");
 

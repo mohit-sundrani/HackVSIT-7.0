@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "http://hack-vsit.tech/:path*",
+            "destination": "https://hack-vsit.tech/:path*",
+            "permanent": true
+        }
+    ]
+}

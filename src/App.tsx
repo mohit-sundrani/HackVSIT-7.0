@@ -7,7 +7,7 @@ import FAQs from "./components/FAQs";
 import Community from "./components/Community";
 import Partner from "./components/Partner";
 import Footer from "./components/Footer";
-import { CustomCursor } from "./hooks/useCursor";
+import { CustomCursor } from "./components/Cursor";
 
 export default function App() {
     return (
