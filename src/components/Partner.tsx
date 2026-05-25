@@ -3,29 +3,44 @@ import { useReveal } from "../hooks/useReveal";
 
 export default function Partner() {
     const ref = useReveal();
-    const [status, setStatus] = useState("idle"); // idle | sending | success | error
+    const [status, setStatus] = useState("idle");
 
     const onSubmit = async (e: SubmitEvent) => {
         e.preventDefault();
+
         setStatus("sending");
 
-        const formData = new FormData(e.target);
-        formData.append("access_key", "b091b7f8-eb81-4fa8-895b-7952c22ade54");
+        const form = e.target as HTMLFormElement;
+
+        const formData = new FormData(form);
+
+        const payload = {
+            name: formData.get("name"),
+            email: formData.get("email"),
+            website: formData.get("website"),
+            partnership_type: formData.get("partnership_type"),
+            message: formData.get("message"),
+        };
 
         try {
-            const res = await fetch("https://api.web3forms.com/submit", {
+            const res = await fetch("/api/partner-webhook", {
                 method: "POST",
-                body: formData,
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload),
             });
+
             const data = await res.json();
 
             if (data.success) {
                 setStatus("success");
-                e.target.reset();
+                form.reset();
             } else {
                 setStatus("error");
             }
-        } catch {
+        } catch (err) {
+            console.error(err);
             setStatus("error");
         }
     };

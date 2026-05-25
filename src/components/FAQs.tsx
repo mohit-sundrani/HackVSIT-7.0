@@ -92,7 +92,7 @@ export default function FAQs() {
                 <FaqItem
                     code="Q-005"
                     question="How much does it cost?"
-                    answer="Registration is free for participants"
+                    answer="Registration is free for all participants"
                 />
                 <FaqItem
                     code="Q-006"
@@ -128,12 +128,6 @@ export default function FAQs() {
                     code="Q-012"
                     question="Where can I get real-time updates?"
                     answer="The best way to stay updated is to join our official Discord server, where we share live announcements. You can also follow our Instagram and LinkedIn pages for real-time news on HackVSIT 7.0 and all upcoming ACE events! "
-                />
-                <FaqItem
-                    code="Q-013"
-                    question="Can I present a project I worked on before the hackathon?"
-                    answer="No. To keep the competition fair, all projects must be built from scratch during the 24 hours. Pre-existing projects are not eligible for submission at HackVSIT 7.0."
-                    fullWidth
                 />
             </div>
         </section>
