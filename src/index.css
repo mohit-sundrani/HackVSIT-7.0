@@ -1605,9 +1605,6 @@ footer {
     .social-icons {
         justify-content: flex-start;
     }
-    .social-actions {
-        flex-direction: column;
-    }
     .soc-action {
         height: 64px;
     }

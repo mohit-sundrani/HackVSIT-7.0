@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 
 export interface CursorOptions {
-    imageUrl: string;
     width?: number;
     height?: number;
     hotspot?: [number, number];

@@ -28,7 +28,7 @@ export default function App() {
                 <Partner />
                 <Footer />
             </main>
-            <CustomCursor imageUrl="/cursor.png" />
+            <CustomCursor className="hidden md:block" />
         </>
     );
 }
