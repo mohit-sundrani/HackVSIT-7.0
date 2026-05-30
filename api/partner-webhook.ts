@@ -20,9 +20,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-    const web3formsKey = process.env.WEB3FORMS_ACCESS_KEY;
 
-    if (!webhookUrl || !web3formsKey) {
+    if (!webhookUrl) {
         return res.status(500).json({
             success: false,
             error: "Missing environment variables",
@@ -70,34 +69,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             }),
         });
 
-        const web3formsPromise = fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                access_key: web3formsKey,
-                subject: "New HackVSIT Partnership Inquiry",
-                from_name: "HackVSIT Website",
-                name,
-                email,
-                website,
-                partnership_type,
-                message,
-            }),
-        });
-
-        const [discordResult, web3formsResult] = await Promise.allSettled([discordPromise, web3formsPromise]);
+        const [discordResult] = await Promise.allSettled([discordPromise]);
 
         const discordSuccess = discordResult.status === "fulfilled" && discordResult.value.ok;
 
-        const web3formsSuccess = web3formsResult.status === "fulfilled" && web3formsResult.value.ok;
-
-        if (discordSuccess || web3formsSuccess) {
+        if (discordSuccess) {
             return res.status(200).json({
                 success: true,
                 discordSuccess,
-                web3formsSuccess,
             });
         }
 

@@ -59,7 +59,7 @@ export default function About() {
                             fontWeight: 500,
                         }}
                     >
-                        PROGRESS: 72% - REGISTRATIONS OPEN
+                        PROGRESS: 15% - PARTNERSHIPS OPEN
                     </div>
                     <div className="bg-num">7.0</div>
                 </div>
